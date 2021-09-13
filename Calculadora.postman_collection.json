@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "2ce24cf8-d7ae-4df7-ba9c-f732595df83e",
+		"name": "Calculadora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Suma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/suma?a=15&b=20&user=daniel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"suma"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "15"
+						},
+						{
+							"key": "b",
+							"value": "20"
+						},
+						{
+							"key": "user",
+							"value": "daniel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/resta?a=40&b=10&user=juan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"resta"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "40"
+						},
+						{
+							"key": "b",
+							"value": "10"
+						},
+						{
+							"key": "user",
+							"value": "juan"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "División",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/div?a=50&b=25&user=camilo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"div"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "50"
+						},
+						{
+							"key": "b",
+							"value": "25"
+						},
+						{
+							"key": "user",
+							"value": "camilo"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplicación",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/mult?a=3&b=4&user=laura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"mult"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "3"
+						},
+						{
+							"key": "b",
+							"value": "4"
+						},
+						{
+							"key": "user",
+							"value": "laura"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Historial suma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/suma/operaciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"suma",
+						"operaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Historial resta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/resta/operaciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"resta",
+						"operaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Historial multiplicación",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/mult/operaciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"mult",
+						"operaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Historial división",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/calculadora/div/operaciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"calculadora",
+						"div",
+						"operaciones"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
