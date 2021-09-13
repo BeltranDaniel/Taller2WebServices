@@ -1,6 +1,11 @@
 # Taller2WebServices
 
 # Demo
+Abajo se encuentran los enlaces para ver los vídeos correspondientes de cada parte del taller
+
+[Parte 1 del taller](https://youtu.be/YdrnefPG5SE)
+
+[Parte 2 del taller](https://youtu.be/OAHEqj_9QCw)
 
 # Instrucciones de ejecución
 Clonar repositorio https://github.com/BeltranDaniel/Taller2WebServices.git
