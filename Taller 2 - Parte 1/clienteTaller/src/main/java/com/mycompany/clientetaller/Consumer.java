@@ -78,7 +78,7 @@ public class Consumer {
                     System.out.println("País de destino: ");
                     trip.setDestination(scanner.nextLine());
                     
-                    System.out.println("Fecha: ");
+                    System.out.println("Fecha (yyyy-mm-dd): ");
                     trip.setDate(LocalDate.parse(scanner.nextLine()));
                     
                     trip = tripService.createTrip(trip);
