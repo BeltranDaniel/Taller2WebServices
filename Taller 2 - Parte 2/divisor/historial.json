@@ -1,0 +1,27 @@
+[
+  {
+    "fecha": "2021-09-12 08:50",
+    "user": "Daniel",
+    "operation": "Resultado de la division 1 Respuesta originada desde: 6999"
+  },
+  {
+    "fecha": "2021-09-12 21:18",
+    "user": "camilo",
+    "operation": "Resultado de la división 2 Respuesta originada desde: 6999"
+  },
+  {
+    "fecha": "2021-09-12 21:18",
+    "user": "andrea",
+    "operation": "Resultado de la división 2 Respuesta originada desde: 6998"
+  },
+  {
+    "fecha": "2021-09-12 21:18",
+    "user": "andrea",
+    "operation": "Resultado de la división 2 Respuesta originada desde: 6999"
+  },
+  {
+    "fecha": "2021-09-12 21:18",
+    "user": "andrea",
+    "operation": "No es posible realizar división en 0 Respuesta originada desde: 6998"
+  }
+]

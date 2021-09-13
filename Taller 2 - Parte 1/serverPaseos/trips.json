@@ -1,0 +1,46 @@
+[
+  {
+    "ID": 1,
+    "name": "Winter trip",
+    "departure": "Germany",
+    "destination": "Colombia",
+    "date": {
+      "year": 2021,
+      "month": 11,
+      "day": 10
+    }
+  },
+  {
+    "ID": 2,
+    "name": "Summer trip",
+    "departure": "Colombia",
+    "destination": "USA",
+    "date": {
+      "year": 2020,
+      "month": 5,
+      "day": 2
+    }
+  },
+  {
+    "ID": 4,
+    "name": "Halloween trip",
+    "departure": "Japan",
+    "destination": "China",
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 13
+    }
+  },
+  {
+    "ID": 6,
+    "name": "My fun trip",
+    "departure": "Alemania",
+    "destination": "Grecia",
+    "date": {
+      "year": 2020,
+      "month": 6,
+      "day": 12
+    }
+  }
+]
